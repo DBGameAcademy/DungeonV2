@@ -9,7 +9,7 @@ public class ShopWindow : MonoBehaviour
     public ItemSlot SellSlot;
     public Text SellText;
 
-    private void OnEnable()
+    private void Start()
     {
         SetupItems();
 

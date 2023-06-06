@@ -8,11 +8,13 @@ public class TownUI : MonoBehaviour
     public GameObject LobbyPanel;
     public GameObject ShopPanel;
     public GameObject QuestPanel;
+    public GameObject PlayerInventory;
 
     public void GoToShop()
     {
         HideAllPanels();
         ShopPanel.SetActive(true);
+        PlayerInventory.SetActive(true);
     }
 
     public void GoToLobby()
